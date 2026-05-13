@@ -1,4 +1,4 @@
-const apiUrl = "https://4100.api.green-api.com";
+const apiUrl = "https://api.green-api.com";
 
 function getCredentials() {
   const idInstance = document.getElementById("idInstance").value;
