@@ -1,0 +1,56 @@
+body {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background: #d5d5d5;
+}
+
+.container {
+  display: flex;
+  gap: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.left-panel {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.right-panel {
+  width: 60%;
+}
+
+input,
+textarea,
+button {
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+textarea {
+  resize: none;
+}
+
+#messageText {
+  height: 80px;
+}
+
+#response {
+  width: 100%;
+  height: 600px;
+  background: white;
+}
+
+button {
+  cursor: pointer;
+  background: #ffffff;
+  transition: 0.2s;
+}
+
+button:hover {
+  background: #eaeaea;
+}
